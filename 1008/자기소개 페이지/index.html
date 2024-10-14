@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<head>
+    <title>profile</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <script>
+        window.onload = function () {
+            var context = document.getElementById("canvas").getContext("2d");
+
+            context.beginPath();
+            context.arc(150, 100, 70, 0, Math.PI * 2);
+            context.lineWidth = 10;
+            context.lineCap = 'round';
+            context.strokeStyle = 'rgba(200, 125, 10, 0.3)';
+            context.stroke();
+
+            context.beginPath();
+            context.arc(120, 90, 10, -(Math.PI), 0);
+            context.lineWidth = 5;
+            context.lineCap = 'round';
+            context.strokeStyle = 'rgba(230, 130, 20, 0.5)';
+            context.stroke();
+
+            context.beginPath();
+            context.arc(180, 90, 10, -(Math.PI), 0);
+            context.lineWidth = 5;
+            context.lineCap = 'round';
+            context.strokeStyle = 'rgba(230, 130, 20, 0.5)';
+            context.stroke();
+
+            context.beginPath();
+            context.moveTo(130, 120);
+            context.lineTo(170, 120);
+            context.lineWidth = 3;
+            context.lineCap = 'round';
+            context.strokeStyle = 'rgba(250, 145, 30, 0.5)';
+            context.stroke();
+
+            context.beginPath();
+            context.arc(150, 120, 20, 0, -(Math.PI));
+            context.lineWidth = 3;
+            context.lineCap = 'round';
+            context.strokeStyle = 'rgba(250, 145, 30, 0.5)';
+            context.stroke();
+
+            context.font = "bold 24px MENU_FONT";
+            context.fillText("Welcome~! Happy day~!", 280, 100);
+            context.stroke();
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <div id="wrapBox">
+
+        <section id="topMenus">
+            <h1 class="shadowBox">SHIN</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="./">첫화면</a></li>
+                    <li><a href="https://blog.naver.com/ssw4826">블로그</a></li>
+                    <li><a href="https://www.instagram.com/seongu_sin/">인스타그램</a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100008116967477&locale=ko_KR">페이스북</a></li>
+                    <li><a href="ssw4826@naver.com">이메일</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <header>
+            <hgroup>
+                <h1>신성우 소개 페이지</h1>
+                <h2>만나서 반갑습니다! 이 페이지는 저를 소개하는 페이지입니다!
+                    이 페이지는 HTML5 기반으로 제작되었으며, 예제용으로 작성되었습니다.
+                    아직까지 계속 작업중입니다. 현재 진행상태는 <progress id="nowStep" value="15" max="100">15%</progress> 입니다. 감사합니다!</h2>
+            </hgroup>
+        </header>
+
+        <div id="mainContent">
+            <div id="basicInfo" class="shadowBox fixWidth">
+                <section>
+                    <hgroup>
+                        <h1>기본정보</h1>
+                    </hgroup>
+
+                    <ul>
+                        <li>혜광고등학교 졸업</li>
+                        <li>경성대학교 소프트웨어학과 20학번 (재학중)</li>
+                        <li>웹디자인기능사 자격증 보유</li>
+                    </ul>
+                </section>
+            </div>
+
+            <div id="techLog" class="shadowBox fixWidth">
+                <section>
+                    <hgroup>
+                        <h1>개발목표</h1>
+                    </hgroup>
+
+                    <ul>
+                        <li>프로그래밍 대회 나가서 입상하기</li>
+                        <li>마음이 맞는 사람들과 홈페이지 자체 제작하기</li>
+                        <li>게임 구상 및 제작 프로젝트 참여하기</li>
+                    </ul>
+                </section>
+            </div>
+
+            <div id="say" class="fixWidth">
+                <section>
+                    <canvas id="canvas" width="550" height="200"></canvas>
+                </section>
+            </div>
+
+            <aside>
+                <figure id="myPhoto">
+                    <img src="증사.png" alt="신성우 사진" />
+                    <figcaption>신성우 사진</figcaption>
+                </figure>
+            </aside>
+        </div>
+
+        <footer>
+            <div id="copyleft" class="shadowBox">
+                이 문서는 HTML5 예제용으로 작성한 문서이며, 크롬 브라우저에서 테스트 되었습니다. 수정 및 재배포 자유.
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

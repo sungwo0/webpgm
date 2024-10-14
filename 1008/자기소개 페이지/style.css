@@ -1,0 +1,110 @@
+* {
+    font-family: NORMAL_FONT;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #2e7f7f;
+}
+
+hgroup h1 {
+    font-family: HEAD_TITLE_FONT;
+    text-shadow: 1px 1px 1px #aaa;
+    font-size: 32px;
+    color: #4e8f8f;
+}
+
+hgroup h2 {
+    font-family: HEAD_SUB_FONT;
+    color: #5e7f7f;
+    text-shadow: 1px 1px 1px #eee;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+aside {
+    position: absolute;
+    width: 200px;
+    top: 0;
+    right: 0;
+}
+
+#wrapBox {
+    position: relative;
+    width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
+#topMenus h1 {
+    font-family: LOGO_FONT;
+    font-size: 32px;
+    padding: 20px;
+    color: #2e4f4f;
+    text-shadow: 2px 2px 2px #ccc;
+}
+
+#topMenus ul {
+    position: absolute;
+    top: 8px;
+    right: 0;
+    text-align: right;
+    width: 500px;
+    height: 50px;
+    font-size: 16px;
+}
+
+#topMenus ul li {
+    display: inline;
+    padding-right: 15px;
+}
+
+#topMenus ul li a {
+    font-family: MENU_FONT;
+    font-size: 22px;
+    text-shadow: 2px 2px 1px #ddd;
+}
+
+#topMenus ul li a:hover {
+    border-bottom: #2eafaf 2px dotted;
+    padding-bottom: 3px;
+}
+
+#nowStep {
+    width: 100px;
+}
+
+#mainContent {
+    position: relative;
+}
+
+#myPhoto img {
+    box-shadow: rgba(0, 0, 100, 0.25) 2px 3px 3px;
+
+}
+
+#copyleft {
+    background: -webkit-gradient(linear, left top, left bottom, from(#ddd), to(#f2f2f2));
+    padding: 10px;
+    text-align: center;
+    color: #999;
+}
+
+.shadowBox {
+    border: #ddd 1px solid;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 128, 0.2) 0px 3px 3px;
+}
+
+.fixWidth {
+    width: 560px;
+    padding: 0 10px 0 10px;
+    margin: 0 0 20px 0;
+}

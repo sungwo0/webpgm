@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자기소개 페이지</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.3/css/foundation.min.css" />
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="grid-container text-center">
+        <div class="grid-x grid-margin-x align-center">
+            <div class="cell small-12">
+                <img src="스폰지밥.png" alt="Profile Image" class="profile-img">
+                <h1>신성우</h1>
+                <p class="lead">대학생 | 웹 디자이너</p>
+                <p>안녕하세요! 저는 현재 대학생으로 웹프로그래밍을 공부하고 있는 중입니다. 사용자 경험을 향상시키기 위해 항상 노력하고 있습니다.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="grid-container section-title">
+        <h2 class="text-center">About Me</h2>
+        <p class="text-center">저는 웹 개발과 디자인에 깊은 열정을 가지고 있으며, 사용자가 즐거움을 느끼는 웹 애플리케이션을 만드는 것이 목표입니다.</p>
+    </section>
+
+    <section class="grid-container section-title">
+        <h2 class="text-center">Learning</h2>
+        <div class="grid-x grid-margin-x text-center">
+            <div class="cell small-12 medium-4">
+                <h3>프론트엔드</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                </ul>
+            </div>
+            <div class="cell small-12 medium-4">
+                <h3>백엔드</h3>
+                <ul>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+            <div class="cell small-12 medium-4">
+                <h3>디자인</h3>
+                <ul>
+                    <li>Photoshop</li>
+                    <li>Illustrator</li>
+                    <li>Figma</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="grid-container text-center section-title">
+        <h2>Contact Me</h2>
+        <p>문의사항이 있거나 프로젝트 협업을 원하시면 아래 링크를 통해 연락해 주세요.</p>
+        <a href="mailto:ssw4826@naver.com" class="button primary">이메일 보내기</a>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.3/js/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+</body>
+
+</html>

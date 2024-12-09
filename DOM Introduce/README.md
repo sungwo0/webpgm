@@ -1,3 +1,3 @@
 <h1>
-  DOM Introduce
+  DOM 이용 자기소개 페이지
 </h1>
